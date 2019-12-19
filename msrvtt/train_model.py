@@ -94,8 +94,6 @@ def main():
         saver = tf.train.Saver()
         config = get_config()
         sess = tf.Session(config=config, graph=model.graph)
-        trainable_variables = tf.trainable_variables()
-        print(*trainable_variables, sep='\n', flush=True)
         if flags.test is None:
             sess.run(tf.global_variables_initializer())
             train_idx1 = np.arange(options.train_size, dtype=np.int32)
