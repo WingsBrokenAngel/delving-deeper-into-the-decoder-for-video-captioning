@@ -1,5 +1,6 @@
 # Delving Deeper into the Decoder for Video Captioning
-This repository is the source code for the paper named *Delving Deeper into the Decoder for Video Captioning*.
+This repository is the source code for the paper named *Delving Deeper into the Decoder for Video Captioning*.  
+The paper is under review.
 
 ## Requirement
 1. Python 3.6
