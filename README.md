@@ -1,7 +1,14 @@
 # Delving Deeper into the Decoder for Video Captioning
 ## Table of Contents
+1. [Description](#description)
+2. [Requirement](#requirement)
+3. [Manual](#manul)
+4. [Results](#results)
+    1. [Comparison on Youtube2Text](#cy)
+    2. [Comparison on MSR-VTT](#cm)
+5. [Data](#data)
 
-## Description
+## <a name="description"></a> Description
 This repository is the source code for the paper named ***Delving Deeper into the Decoder for Video Captioning***.  
 The paper has been accepted by ***ECAI 2020***. The encoder-decoder framework is the most popular paradigm for video captioning task. There still exist some non-negligible problems in the decoder of a video captioning model. We propose three methods to improve the performance of the model.
 1. A combination of variational dropout and layer normalization is embeded into semantic compositional gated recurrent unit to alleviate the problem of overfitting. 
@@ -15,13 +22,13 @@ It is demonstrated in the experiments of MSVD and MSR-VTT datasets that our mode
 ![Professional Learning](./imgs/professional_learning.png)
 ---
 
-## Requirement
+## <a name="requirement"></a>Requirement
 1. Python 3.6
 2. TensorFlow-GPU 1.13
 3. pycocoevalcap (Python3)
 4. NumPy
 
-## Manual
+## <a name="manual"></a>Manual
 1. Make sure you have installed all the required packages.
 2. Download files in the [Data section](#data).
 3. `cd path_to_directory_of_model; mkdir saves`
