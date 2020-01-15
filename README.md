@@ -2,7 +2,7 @@
 ## Table of Contents
 1. [Description](#description)
 2. [Requirement](#requirement)
-3. [Manual](#manul)
+3. [Manual](#manual)
 4. [Results](#results)
     1. [Comparison on Youtube2Text](#cy)
     2. [Comparison on MSR-VTT](#cm)
