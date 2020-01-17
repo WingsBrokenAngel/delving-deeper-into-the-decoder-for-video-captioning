@@ -119,7 +119,7 @@ It is demonstrated in the experiments of MSVD and MSR-VTT datasets that our mode
 	title={Delving Deeper into the Decoder for Video Captioning},
 	author={Haoran Chen and Jianmin Li and Xiaolin Hu},
 	journal={CoRR},
-    archivePrefix={arXiv},
+    	archivePrefix={arXiv},
 	primaryClass={cs.CV},
 	url={https://arxiv.org/abs/2001.05614},
 	eprint={2001.05614},
