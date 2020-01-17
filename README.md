@@ -14,10 +14,11 @@
     1. [Comparison on Youtube2Text](#cy)
     2. [Comparison on MSR-VTT](#cm)
 5. [Data](#data)
+6. [Citation](#citation)
 
 ## <a name="description"></a> Description
-This repository is the source code for the paper named ***Delving Deeper into the Decoder for Video Captioning***.  
-The paper has been accepted by ***ECAI 2020***. The encoder-decoder framework is the most popular paradigm for video captioning task. There still exist some non-negligible problems in the decoder of a video captioning model. We propose three methods to improve the performance of the model.
+This repository is the source code for the paper named [***Delving Deeper into the Decoder for Video Captioning***](https://arxiv.org/abs/2001.05614).  
+The paper has been accepted by [***ECAI 2020***](http://ecai2020.eu/). The encoder-decoder framework is the most popular paradigm for video captioning task. There still exist some non-negligible problems in the decoder of a video captioning model. We propose three methods to improve the performance of the model.
 1. A combination of variational dropout and layer normalization is embeded into semantic compositional gated recurrent unit to alleviate the problem of overfitting. 
 2. A unified, flexible method is proposed to evaluate the model performance on a validation set so as to select the best checkpoint for testing. 
 3. A new training strategy called professional learning is proposed which develops the strong points of a captioning model and bypasses its weaknesses.
@@ -111,3 +112,17 @@ It is demonstrated in the experiments of MSVD and MSR-VTT datasets that our mode
     * SHA-256 1a424c3aaa027785a07b675ba3a208055661c867fb86070c5ea837c78e2311f2
 
 ---
+
+### <a name="citation"></a> Citation
+```
+@article{chen2020delving,
+	title={Delving Deeper into the Decoder for Video Captioning},
+	author={Haoran Chen and Jianmin Li and Xiaolin Hu},
+	journal={CoRR},
+    archivePrefix={arXiv},
+	primaryClass={cs.CV},
+	url={https://arxiv.org/abs/2001.05614},
+	eprint={2001.05614},
+	year={2020}
+}
+```
