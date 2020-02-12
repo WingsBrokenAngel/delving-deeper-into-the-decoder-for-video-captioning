@@ -4,7 +4,7 @@ class Config():
         self._n_h = 512
         self._n_f = 64
         self._n_v = 12596
-        self._n_t = 1700# 1155
+        self._n_t = 1300# 1155
         self._n_z1 = 2048
         self._n_z2 = 1536
         self._embed = embed
@@ -13,13 +13,13 @@ class Config():
         self._train_size2 = 1200
         self._val_size = 100
         self._test_size = 670
-        self._epoch = 16 
+        self._epoch = 50 
         self._threshold = 16
         self._max_steps = 20
         self._batch_size = 128
         self._keep_prob = 0.5
         self._wd = 0.861
-        self._gamma = 0.7
+        self._gamma = 0.8
         self._avglen = 8
         self._we_trainable = False
 
@@ -45,8 +45,8 @@ class Config():
 
     @property
     def n_z(self):
-        # return self._n_z2
-        return self._n_z1 + self._n_z2
+        return self._n_z2
+        # return self._n_z1 + self._n_z2
 
     @property
     def n_z1(self):
