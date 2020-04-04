@@ -25,6 +25,8 @@ The paper has been accepted by [***ECAI 2020***](http://ecai2020.eu/). The encod
 
 It is demonstrated in the experiments of MSVD and MSR-VTT datasets that our model has achieved the best results evaluated by BLEU, CIDEr, METEOR and ROUGE-L metrics with significant gains of up to 11.7% on MSVD and 5% on MSR-VTT compared with the previous state-of-the-art models.
 
+If you need more information about how to generate training, validating and testing data for the datasets, please refer to [Semantics-AssistedVideoCaptioning](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning).
+
 ---
 
 ![Professional Learning](./imgs/professional_learning.png)
