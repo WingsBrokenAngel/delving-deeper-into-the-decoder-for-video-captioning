@@ -1,11 +1,5 @@
 # Delving Deeper into the Decoder for Video Captioning
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
-![DeepLearning](https://img.shields.io/badge/VideoCaptioning-DeepLearning-orange)
-![Github Watchers](https://img.shields.io/github/watchers/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning?color=brightgreen)
-![GitHub stars](https://img.shields.io/github/stars/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning?color=brightgreen)
-![GitHub forks](https://img.shields.io/github/forks/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning?color=brightgreen&label=Fork)
-![](https://img.shields.io/badge/ECAIpaper-SourceCode-yellow)
-![License](https://img.shields.io/github/license/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning.svg?color=brightgreen&style=flat)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![DeepLearning](https://img.shields.io/badge/VideoCaptioning-DeepLearning-orange) ![Github Watchers](https://img.shields.io/github/watchers/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning?color=brightgreen) ![GitHub stars](https://img.shields.io/github/stars/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning?color=brightgreen) ![GitHub forks](https://img.shields.io/github/forks/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning?color=brightgreen&label=Fork) ![](https://img.shields.io/badge/ECAIpaper-SourceCode-yellow) ![License](https://img.shields.io/github/license/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning.svg?color=brightgreen&style=flat)
 ## Table of Contents
 1. [Description](#description)
 2. [Requirement](#requirement)
@@ -65,21 +59,17 @@ If you need more information about how to generate training, validating and test
 
 ### <a name="dmsvd"></a> MSVD
 - MSVD dataset and features: 
-[THUCloud](https://cloud.tsinghua.edu.cn/f/783e3bf2eb8d43748b97/?dl=1) | 
 [GoogleDrive](https://drive.google.com/file/d/17zeh7h3DOT--XRjlrocdiVR134l9VTu9/view?usp=sharing)
     * SHA-256 ca86eb2b90e302a4b7f3197065cad3b9be5285905952b95dbffb61cb0bf79e9c
 - Model Checkpoint: 
-[THUCloud](https://cloud.tsinghua.edu.cn/f/ac32b88227d34050b421/?dl=1) | 
 [GoogleDrive](https://drive.google.com/file/d/1RMoW_q_dcfl06IB7SG-lFEN-gvNSMcIh/view?usp=sharing)
     * SHA-256 64089a49fe9de895c9805a85d50160404cb36ccb8c22a70a32fc7ef5a2abfff1
 
 ### <a name="dmsrvtt"></a> MSRVTT
 - MSRVTT dataset and features: 
-[THUCloud](https://cloud.tsinghua.edu.cn/f/2760b68aaf9944649690/?dl=1) | 
 [GoogleDrive](https://drive.google.com/file/d/1NXHxOCfkDnrFDX9c8jygvYMwkOi5vksf/view?usp=sharing)
     * SHA-256 611b297c4fbbdd58540373986453a991f285aed6cc18914ad930e1e7646f26fb
 - Model Checkpoint: 
-[THUCloud](https://cloud.tsinghua.edu.cn/f/90ac952f971c4f24994d/?dl=1) | 
 [GoogleDrive](https://drive.google.com/file/d/1AJdKFG64ztmLDBg4U4uo7_fjINrpksE6/view?usp=sharing)
     * SHA-256 fb04fd2d29900f7f8a712b6d2352e8227acd30173274b64a38fcea6a608e4a8e
 
